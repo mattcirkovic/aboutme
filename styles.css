@@ -1,0 +1,11 @@
+.title-grid {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.title {
+    margin: 0;
+}
