@@ -1,11 +1,13 @@
-.title-grid {
+.title-div {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    width: 50vh;
     padding-left: 50px;
     padding-top: 50px;
+    justify-content: flex-start;
 }
 
 .title {
     margin: 0;
+    font-size: 300%;
 }
