@@ -29,6 +29,16 @@
     position: fixed;
   }
 
+  #title-shape2 {
+      width: 300px;
+      height: 1000px;
+      left: 400px;
+      transform: skew(-10deg);
+      background: #DD574650;
+      z-index: -1;
+      position: fixed;
+    }
+
 .title-text {
     font-family: "Red Hat Display", sans-serif;
 }
@@ -43,6 +53,10 @@
 
 .card {
     opacity: .9;
+
+
+.interest-box {
+    order: -1;
 }
 
 .skill-box {
