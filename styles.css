@@ -30,8 +30,6 @@
   }
 
 .title-text {
-    margin: 0;
-    padding-bottom: 1%;
     font-family: "Red Hat Display", sans-serif;
 }
 
@@ -40,12 +38,7 @@
 }
 
 .work-text {
-    margin: 0;
     font-family: "Red Hat Display", sans-serif;
-}
-
-.job-title {
-    color: #FFC470;
 }
 
 .card {
