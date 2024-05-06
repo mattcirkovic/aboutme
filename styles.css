@@ -20,10 +20,10 @@
 }
 
 #title-shape {
-    width: 300px;
-    height: 800px;
-    left: 300px;
-    transform: skew(50deg);
+    width: 200px;
+    height: 1000px;
+    left: 250px;
+    transform: skew(30deg);
     background: #FFC47060;
     z-index: -1;
     position: fixed;
@@ -35,20 +35,7 @@
     font-family: "Red Hat Display", sans-serif;
 }
 
-p.title-text {
-    font-size: 2vw;
-}
-
-h1.title-text {
-    font-size: 6vw;
-}
-
-h2.title-text {
-    font-size: 4vw;
-}
-
 .home-title {
-    font-size: 4vw;
     color: #4793AF;
 }
 
@@ -57,12 +44,12 @@ h2.title-text {
     font-family: "Red Hat Display", sans-serif;
 }
 
-h2.work-text {
-    font-size: 3vw;
-}
-
 .job-title {
     color: #FFC470;
+}
+
+.card {
+    background: #ffffff70
 }
 
 
