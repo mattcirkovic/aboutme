@@ -1,39 +1,64 @@
-.title-grid{
-    margin-left: 20px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: stretch;
-    flex: 1;
+.navbar-brand {
+    font-size: 2rem;
 }
+
+.nav-brand-custom {
+    font-size: 2rem;
+    color: #4793AF;
+    font-weight: 700;
+}
+
+.home-body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.title-box {
+    margin: 0;
+    padding-bottom: 7.5%;
+}
+
+#title-shape {
+    width: 300px;
+    height: 800px;
+    transform: skew(50deg);
+    background: #FFC47070;
+    z-index: -1;
+    position: fixed;
+    left: 300px;
+  }
 
 .title-text {
     margin: 0;
+    padding-bottom: 1%;
     font-family: "Red Hat Display", sans-serif;
 }
 
 p.title-text {
-    font-size: 3rem;
+    font-size: 2vw;
 }
 
 h1.title-text {
-    font-size: 6rem;
+    font-size: 6vw;
 }
 
 h2.title-text {
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 #job-title {
-    font-size: 4rem;
-    color: white;
-    background-color: #FFC470;
-    padding: 5px;
+    font-size: 4vw;
+    color: #4793AF;
 }
 
-.navbar-brand {
-    font-size: 2rem;
+.work-text {
+    margin: 0;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+h2.work-text {
+    font-size: 4vw;
 }
 
 
