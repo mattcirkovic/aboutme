@@ -17,6 +17,8 @@
 .title-box {
     margin: 0;
     padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 #title-shape {
@@ -24,7 +26,7 @@
     height: 1000px;
     left: 250px;
     transform: skew(30deg);
-    background: #FFC47060;
+    background: #FFC47020;
     z-index: -1;
     position: fixed;
   }
@@ -34,13 +36,14 @@
       height: 1000px;
       left: 400px;
       transform: skew(-10deg);
-      background: #DD574650;
+      background: #DD574620;
       z-index: -1;
       position: fixed;
     }
 
 .title-text {
     font-family: "Red Hat Display", sans-serif;
+    margin-bottom: 15px;
 }
 
 .home-title {
@@ -53,10 +56,6 @@
 
 .card {
     opacity: .9;
-
-
-.interest-box {
-    order: -1;
 }
 
 .skill-box {
