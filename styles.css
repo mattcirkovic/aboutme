@@ -32,10 +32,9 @@
 }
 
 #title-shape3 {
-    width: 300px;
+    width: 600px;
     height: 1000px;
     left: 400px;
-    top: 250px;
     transform: skew(-70deg);
     background: #4793AF20;
     z-index: -1;
@@ -56,8 +55,9 @@
 }
 
 .card {
-    opacity: .75;
+    opacity: .8;
 }
+
 
 .skill-box {
     display: flex;

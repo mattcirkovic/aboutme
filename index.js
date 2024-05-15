@@ -2,18 +2,17 @@ var titles = [
     'web designer',
     'disc golfer',
     'data scientist',
+    'guitar player',
     'bad golfer',
     'trail runner',
     'data engineer',
-    'IT professional',
+    'fast learner',
     'software developer'
 ];
 
 var i = 0;
-/*
+
 setInterval(() => {
-    console.log(i);
     document.getElementById('home-title').innerHTML = titles[i % titles.length];
     i++
 }, 1000);
-*/
