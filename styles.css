@@ -1,12 +1,12 @@
 .home-body {
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 5%;
 }
 
 .title-box {
     margin: 0;
-    padding-bottom: 5%;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: column;
 }
@@ -21,14 +21,25 @@
     position: fixed;
   }
 
-  #title-shape2 {
-      width: 300px;
-      height: 1000px;
-      left: 400px;
-      transform: skew(-10deg);
-      background: #DD574620;
-      z-index: -1;
-      position: fixed;
+#title-shape2 {
+    width: 300px;
+    height: 1000px;
+    left: 400px;
+    transform: skew(-10deg);
+    background: #DD574620;
+    z-index: -1;
+    position: fixed;
+}
+
+#title-shape3 {
+    width: 300px;
+    height: 1000px;
+    left: 400px;
+    top: 250px;
+    transform: skew(-70deg);
+    background: #4793AF20;
+    z-index: -1;
+    position: fixed;
     }
 
 .title-text {
@@ -45,7 +56,7 @@
 }
 
 .card {
-    opacity: .9;
+    opacity: .75;
 }
 
 .skill-box {

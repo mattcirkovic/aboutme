@@ -10,9 +10,10 @@ var titles = [
 ];
 
 var i = 0;
-
+/*
 setInterval(() => {
     console.log(i);
     document.getElementById('home-title').innerHTML = titles[i % titles.length];
     i++
 }, 1000);
+*/
