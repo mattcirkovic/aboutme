@@ -47,7 +47,7 @@
 }
 
 .title-desc {
-    
+
 }
 
 #home-title {
@@ -73,13 +73,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15%;
+    gap: 10%;
 }
 
 a { color: inherit; }
 
 #linkedin-icon {
     color: #0077B5;
+}
+
+#email-icon {
+    opacity: .85;
 }
 
 @media (max-width: 991.98px) {
