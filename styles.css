@@ -2,10 +2,10 @@
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 10%;
+    min-width: 300px;
 }
 
 .title-box {
-    margin: 0;
     margin-bottom: 3%;
     display: flex;
     flex-direction: column;
@@ -64,6 +64,27 @@
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+a { color: inherit; }
+
+#linkedin-icon {
+    color: #0077B5;
+}
+
+@media (max-width: 991.98px) {
+    .social-links {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 
