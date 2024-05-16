@@ -46,6 +46,10 @@
     margin-bottom: 15px;
 }
 
+.title-desc {
+    
+}
+
 #home-title {
     color: #4793AF;
 }
@@ -57,8 +61,6 @@
 .card {
     opacity: .8;
 }
-
-
 .skill-box {
     display: flex;
     flex-direction: column;
