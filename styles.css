@@ -61,6 +61,11 @@
 .card {
     opacity: .8;
 }
+
+.job-desc {
+    text-align: justify;
+}
+
 .skill-box {
     display: flex;
     flex-direction: column;
