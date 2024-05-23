@@ -11,6 +11,13 @@ var titles = [
 ];
 
 var i = 0;
+var dark = true;
+
+document.getElementById("dark-mode-button").addEventListener('click', () => {
+    dark = !dark;
+    document.getElementById('page').setAttribute('data-bs-theme', dark ? 'dark' : 'light');
+    console.log('Changed theme');
+})
 
 setInterval(() => {
     document.getElementById('home-title').innerHTML = titles[i % titles.length];

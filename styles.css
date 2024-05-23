@@ -1,7 +1,7 @@
 .home-body {
-    margin-left: 12%;
-    margin-right: 12%;
-    padding-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 8%;
     min-width: 300px;
 }
 
@@ -39,7 +39,13 @@
     background: #4793AF20;
     z-index: -1;
     position: fixed;
-    }
+}
+
+#dark-mode-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
 
 .title-text {
     font-family: "Red Hat Display", sans-serif;
@@ -95,6 +101,13 @@ a { color: inherit; }
     .social-links {
         display: flex;
         flex-direction: row;
+    }
+
+    .home-body {
+        margin-left: 12%;
+        margin-right: 12%;
+        padding-top: 12%;
+        min-width: 300px;
     }
 }
 
