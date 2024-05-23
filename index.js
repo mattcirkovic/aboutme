@@ -1,13 +1,19 @@
 var titles = [
     'web designer',
     'disc golfer',
-    'data scientist',
+    'data guy',
     'guitar player',
-    'bad golfer',
+    'Survivor watcher',
+    'team player',
+    'bread baker',
+    'cat owner',
+    'double-bogey golfer',
+    'chess player',
     'trail runner',
-    'data engineer',
     'fast learner',
-    'software developer'
+    'math geek',
+    'software developer',
+    'home cook'
 ];
 
 var i = 0;
